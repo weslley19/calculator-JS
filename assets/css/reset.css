@@ -1,0 +1,12 @@
+/* FILE RESET CONFIGURATION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    font-size: 1em;
+}

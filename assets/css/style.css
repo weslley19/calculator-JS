@@ -1,0 +1,82 @@
+/* FILE STYLE */
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-443446.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px 0 40px 0;
+}
+/* -------- */
+
+/* CALCULATOR */
+.main_content_visor {
+    text-align: center;
+}
+
+.main_content_visor input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.8em;
+    text-align: end;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.main_content_buttons {
+    width: 40%;
+    background: linear-gradient(135deg, #18d26e 15%, #1a6ca3 100%);
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 0 15px #000;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.main_content_buttons input {
+    background-color: #fff;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 0;
+    margin: 5px;
+    width: 50px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_content_buttons input:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.main_content_buttons .equality {
+    background-color: rgb(81, 95, 95);
+}
+
+.main_content_buttons .ac {
+    background-color: rgb(192, 21, 21);
+}
+/* --------- */
+
+.copy {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: center;
+}

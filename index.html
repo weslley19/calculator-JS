@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Calculadora Online</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">Calculadora Online</h1>
+    </header>
+
+    <main>
+        <div class="main_content">
+            <div class="main_content_visor">
+                <input type="text" name="visor" id="visor" placeholder="Clique em um número..."> <br><br>
+            </div>
+
+            <div class="main_content_buttons">
+                <input type="button" name="7" value="7" onclick="button(value)">
+                <input type="button" name="8" value="8" onclick="button(value)">
+                <input type="button" name="9" value="9" onclick="button(value)">
+                <input type="button" name="+" value="+" onclick="button(value)"> <br>
+
+                <input type="button" name="4" value="4" onclick="button(value)">
+                <input type="button" name="5" value="5" onclick="button(value)">
+                <input type="button" name="6" value="6" onclick="button(value)">
+                <input type="button" name="-" value="-" onclick="button(value)"> <br>
+
+                <input type="button" name="1" value="1" onclick="button(value)">
+                <input type="button" name="2" value="2" onclick="button(value)">
+                <input type="button" name="3" value="3" onclick="button(value)">
+                <input type="button" name="*" value="*" onclick="button(value)"> <br>
+
+                <input type="button" name="0" value="0" onclick="button(value)">
+                <input class="ac" type="button" name="ac" value="AC" onclick="reset()">
+                <input class="equality" type="button" name="=" value="=" onclick="calculate()">
+                <input type="button" name="/" value="/" onclick="button(value)">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copy">por Weslley Oliveira - 2020</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
