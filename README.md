@@ -3,7 +3,7 @@
 Calculadora online feita com HTML5, CSS3 e JavaScript.
 
 Explicação do projeto:
-*Apenas com 3 funções usando JS é bem simples fazer a calculadora funcionar
+* Apenas com 3 funções usando JS é bem simples fazer a calculadora funcionar
 
 
 Online calculator made with HTML5, CSS3 and JavaScript.
